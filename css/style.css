@@ -1,3 +1,5 @@
+/**Navigation Bar**/
+
 .nav {
     display: block;
 }
@@ -42,4 +44,46 @@
 .top-navigation .links li:hover {
     cursor: pointer;
     color: #333333;
+}
+/**Introduction Section**/
+.introduction {
+    background-image: url('../images/first-background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+
+}
+.introduction h1,
+.introduction h3 {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+.introduction h1 {
+    margin-top: 17.5rem;
+    font-size: 3.125rem;
+}
+.introduction h3 {
+    margin-top: 1.25rem;
+    font-size: 1.563rem;
+}
+/**Buttons**/
+.introduction .buttons {
+    /*width: 9.688rem;*/
+    color: white;
+    text-align: center;
+    margin-top: 1.563rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+}
+
+.introduction .half {
+    width: 49%;
+    padding: 0 0.938rem;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 1.125rem;
+    line-height:1.2;
 }
