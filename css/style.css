@@ -126,6 +126,7 @@
 .cases .devices > li {
     width: 33.3333333%;
     float: left;
+    display: inline-block;
 
 }
 
