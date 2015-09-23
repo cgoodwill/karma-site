@@ -69,9 +69,24 @@
     margin-top: 1.25rem;
     font-size: 1.563rem;
 }
+
+.introduction .content {
+    text-align: center;
+}
+
+.big-button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    /**Turns button into inline-block so it can be centerered**/
+    display: inline-block;
+}
+
 /**Buttons**/
-.introduction .button {
-    width: 9.688rem;
+.introduction button {
+    /*width: 9.688rem;*/
     color: white;
     text-align: center;
     margin-top: 1.563rem;
