@@ -149,8 +149,6 @@
 }
 
 .social .icons > li {
-    
-    
     display: inline-block;
     margin: 0;
     padding: 0;
@@ -184,4 +182,11 @@
     font-size: 0.9rem;
     font-weight: 300;
     color: #838994;
+}
+
+/**responsive**/
+button:hover {
+    background-color: #d9400e;
+    border-color: #cf3d0e;
+    cursor: pointer;
 }
