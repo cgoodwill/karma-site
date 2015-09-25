@@ -151,7 +151,7 @@
 .social .icons > li {
     display: inline-block;
     margin: 0;
-    padding: 0;
+    padding: 0 5px 0 5px;
     border: 0;
 }
 
