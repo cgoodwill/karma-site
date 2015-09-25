@@ -166,6 +166,10 @@
     cursor: pointer;
 }
 
+.li {
+    list-style-type: none;
+}
+
 .social .twitter {
     color: #55acee;
 }
